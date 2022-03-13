@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #425b84;
-    --secondary-color: #5b7bb4;
+    --primary-color: #91a5b6;
+    --secondary-color: #2867c3;
     --max-width: 1100px;
 }
 
@@ -11,7 +11,7 @@
 }
 
 body{
-    font: normal 1rem/1.5 'Arial', sans-serif;
+    font: normal 1rem/1.5 'Open Sans', sans-serif;
     background: var(--primary-color);
     color: #fff;
     overflow-x: hidden;
@@ -28,6 +28,12 @@ padding: 4rem 0;
     max-width: var(--max-width);
     margin: 0 auto;
     text-align: center;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
 }
 
 h1 {
